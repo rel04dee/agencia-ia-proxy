@@ -2,6 +2,6 @@
   "name": "agencia-ia-proxy",
   "version": "1.0.0",
   "main": "proxy.js",
-  "scripts": { "start": "node proxy.js" },
+  "scripts": { "start": "PORT=3001 node proxy.js" },
   "engines": { "node": ">=18.0.0" }
 }
